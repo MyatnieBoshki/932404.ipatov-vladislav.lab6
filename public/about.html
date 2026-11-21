@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>О себе</title>
+  <meta name="theme-color" content="#4f46e5">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" href="/icons/icon-192.png">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <nav><a href="/">Калькулятор</a><a href="/about">О себе</a></nav>
+  </header>
+
+  <main>
+    <h1>О себе</h1>
+    <p>Студент: Ипатов Владислав, группа 932404.</p>
+    <p>Лабораторная работа №6, вариант 5: калькулятор на Node.js и Express с поддержкой PWA.</p>
+    <h2>API</h2>
+    <p><code>GET /api/calc?a=5&amp;b=10&amp;op=%2B</code> → <code>{"result":15,"expression":"5+10","error":null}</code></p>
+    <p><code>GET /api/calc/div?a=1&amp;b=4</code> → <code>{"result":0.25,"expression":"1/4","error":null}</code></p>
+    <p><code>GET /api/status</code> → состояние сервера.</p>
+  </main>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>
